@@ -194,6 +194,6 @@
 .info_img{
     background-image: url(img/info2.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: 90%;
     background-repeat: no-repeat;    
 }  
