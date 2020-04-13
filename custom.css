@@ -197,3 +197,9 @@
     background-size: 90%;
     background-repeat: no-repeat;    
 }  
+
+
+
+#map {
+    height: 400px;
+  }
