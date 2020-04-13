@@ -149,12 +149,14 @@
     }
   }
   .logo{
-      width: 4vw;
-      height: 3vh;
+    width: 11vw;
+    height: 20vh;
       background-image: url(img/logo.png);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      margin-left: 50%;
+      transform: translateX(-50%);
   }
   /* intro */
   .intro-section {
