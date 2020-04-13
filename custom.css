@@ -149,14 +149,15 @@
     }
   }
   .logo{
-    width: 11vw;
-    height: 20vh;
+    width: 20vw;
+    height: 23vh;
       background-image: url(img/logo.png);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-left: 50%;
-      transform: translateX(-50%);
+      position: absolute;
+        left: 40%;
+        top: 20%;
   }
   /* intro */
   .intro-section {
@@ -168,9 +169,7 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-  .intro-section .logo, .intro-section p {
-    margin-bottom: 120px;
-  }
+ 
   
   @media (min-width: 992px) {
     .intro-section {
@@ -209,7 +208,10 @@
     background-repeat: no-repeat;    
 }  
 
-
+.contact_oldschool{
+    font-size: 2vh;
+    margin-bottom: 3vh;
+}
 
 #map {
     height: 400px;
