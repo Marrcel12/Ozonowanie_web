@@ -187,4 +187,10 @@
     margin: 2.2vh;
     text-transform: none;
   }
-  
+.info_img{
+    padding-left: 5%;
+    background-image: url(img/info2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}  
