@@ -157,6 +157,9 @@
       width: 28%;
       display: none;
     }
+      .navLogo{
+      display: none;
+      }
   }
   .logo{
     width: 14vw;
@@ -169,6 +172,14 @@
     left: 36%;
     top: 28%;
   }
+
+.navLogo{
+    background-image: url(img/logo.png);
+    padding-top: 1vh;
+    width:8vh;
+    height: 8vh;
+    background-size: cover;
+}
   /* intro */
   .intro-section {
     padding-top: 150px;
