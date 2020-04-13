@@ -151,13 +151,13 @@
   .logo{
     width: 20vw;
     height: 23vh;
-      background-image: url(img/logo_white.png);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: absolute;
-        left: 40%;
-        top: 20%;
+    background-image: url(img/logo_white.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 33%;
+    top: 20%;
   }
   /* intro */
   .intro-section {
