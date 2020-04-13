@@ -148,16 +148,26 @@
       color: #4fbfa8;
     }
   }
+  @media screen and (max-width: 600px) {
+    .logo {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
   .logo{
-    width: 20vw;
+    width: 14vw;
     height: 23vh;
     background-image: url(img/logo_white.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    left: 33%;
-    top: 20%;
+    left: 36%;
+    top: 28%;
   }
   /* intro */
   .intro-section {
