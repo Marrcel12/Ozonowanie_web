@@ -175,9 +175,13 @@
 /* about */
 .info_ozon{
     margin-top: 2.2vh;
+    margin-bottom: 1vh;
 }
 .info_ozon_text_1{
     margin-top: 1vh;
+}
+.info_ozon_content{
+    margin-top: 4vh;
 }
 /* service */
 #services{
@@ -188,9 +192,8 @@
     text-transform: none;
   }
 .info_img{
-    padding-left: 5%;
     background-image: url(img/info2.jpg);
     background-position: center;
-    background-size: cover;
-    
+    background-size: contain;
+    background-repeat: no-repeat;    
 }  
