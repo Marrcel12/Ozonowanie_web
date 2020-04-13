@@ -22,6 +22,7 @@ nav.navbar {
     letter-spacing: 0.1em;
     font-weight: 700;
     font-family: "Roboto Slab", serif;
+    color:#4fbfa8;
   }
   
   nav.navbar a.nav-link {
@@ -54,5 +55,34 @@ nav.navbar {
     nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
       color: #4fbfa8;
     }
+  }
+  /* intro */
+  .intro-section {
+    padding-top: 150px;
+    color: #fff;
+  }
+  
+  .intro-section .logo, .intro-section p {
+    margin-bottom: 120px;
+  }
+  
+  @media (min-width: 992px) {
+    .intro-section {
+      min-height: 80vh;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
+/* service */
+#services{
+    margin-top: 2vh;
+}
+.service-heading {
+    margin: 2.2vh;
+    text-transform: none;
   }
   
