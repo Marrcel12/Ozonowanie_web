@@ -218,6 +218,9 @@
 #services{
     margin-top: 2vh;
 }
+.fa-circle{
+color:#74cdba !important;
+}
 .service-heading {
     margin: 2.2vh;
     text-transform: none;

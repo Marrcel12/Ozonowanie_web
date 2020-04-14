@@ -63,10 +63,10 @@ function map() {
     map();
 
     Swal.fire({
-        title: 'Tyuł!',
+        title: 'tytuł!',
         text: 'Antywirusowe działanie ozonu jest od dawna znane i udokumentowane. Wstępne wyniki badań w Institute of Virology w Hubei (Chiny) potwierdziło, że ozon niszczy nowego wirusa SARS-CoV-2, który jest wirusem osłonkowym, otoczony dodatkową osłonką lipidową. Ozon rozbija cząsteczki lipidowe w miejscu ich podwójnych lub potrójnych wiązań, niszczy osłonkę lipidową, która jest potrzebna do kolejnej infekcji. Ozon inaktywuje wirusy rozmieszczone w różnych miejscach pomieszczenia, na twardej i porowatej powierzchni (obicia mebli, dywan), w obecności płynów biologicznych (krew, surowica). Przenika wszędzie tam, gdzie nie wnikną chemiczne środki dezynfekujące wykorzystywane przy metodzie opryskiwania czy zamgławiania, a więc w głębsze szczeliny i szpary, pod meble, w różnego rodzaju urządzenia.',
         imageUrl: 'img/info3.jpg',
-        imageWidth: 700,
-        imageHeight: 350,
+        imageWidth: 900,
+        imageHeight: 300,
         imageAlt: 'Koronowirus',
       })
