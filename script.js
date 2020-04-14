@@ -59,7 +59,7 @@ function map() {
     }
 
 }
-
+var scroll = new SmoothScroll('a[href*="#"]');
     map();
 
     Swal.fire({
