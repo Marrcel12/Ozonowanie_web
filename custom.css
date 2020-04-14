@@ -168,9 +168,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative;
-    left: 36%;
-    top: 28%;
+    margin: 0 auto;
   }
 
 .navLogo{
