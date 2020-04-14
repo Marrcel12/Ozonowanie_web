@@ -202,6 +202,11 @@
     }
   }
 /* about */
+.col-md-12 ul{
+  transform: translateX(-8%);
+  margin-left: 50%;
+  
+}
 .info_ozon{
     margin-top: 2.2vh;
     margin-bottom: 1vh;
