@@ -230,7 +230,10 @@ color:#74cdba !important;
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;    
-}  
+} 
+#services h2{
+  margin-bottom: 4%;
+}
 
 .contact_oldschool{
     font-size: 2vh;
