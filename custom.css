@@ -162,6 +162,7 @@
       .navLogo{
       display: none;
       }
+      
   }
   .logo{
     width: 14vw;
@@ -252,3 +253,8 @@ color:#74cdba !important;
   .form-control {
     margin-bottom: 20px;
   }
+  @media screen and (max-width: 600px) {
+
+  .col-md-12 ul{
+    transform: translateX(-35%);
+  }}
